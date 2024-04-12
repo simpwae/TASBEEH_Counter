@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url("https://ibnezafar.com/wp-content/uploads/2021/09/CamelBone3mm1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+h1 {
+  margin: 4vh;
+  color: rgba(37, 48, 37, 0.788);
+}
+.tasbeeh-counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.increment-button,
+.reset-button {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.counter {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px;
+}
+.increment-button:hover,
+.reset-button:hover {
+  background-color: #285c29;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.4s ease-in-out;
+}
